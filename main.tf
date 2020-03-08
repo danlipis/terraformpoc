@@ -3,7 +3,6 @@ provider "aws" {
     access_key = "AKIAZ3B5HSP3TFJYQ6UV"
     secrety_key = "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"
     version = "~> 2.0"
-    region  = "us-east-1"
 }
 
 resource "aws_instance" "dev" {
